@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+		<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body style="background-color:papayawhip">
+    <center>
+      <div id = "eee"></div>
+      <script type = "text/babel">
+        function Car() 
+        {
+          return <h2>Here is your Appointment page , You can book your Appointment here !!!</h2>;
+        }
+        ReactDOM.render(<Car/>,document.getElementById('eee'));
+      </script>
+    </center>
+    <h1><center>APPOINTMENT</center></h1>
+    <center>
+    <form method = "post">
+      <p>
+      <b>PATIENT NAME</b>
+      <input type ="text" name ="PATIENTNAME">
+      </p>
+      <p>
+      <b>PATIENT AGE</b>
+      <input type ="int" name ="PATIENTAGE">
+      </p>
+      <p>
+        <b>BOOK DATE</b>
+        <input type="text" name="BOOKDATE">
+        </p>
+        <p>
+          <b>BOOK TIME</b>
+          <input type="text" name="BOOKTIME">
+        </p>
+      <p>
+      <b>DOCTOR NAME</b>
+      <input type ="text" name ="DOCTORNAME">
+      </p>
+      <p>
+      <b>SPECIALITY</b>
+      <input type ="text" name ="SPECIALITY">
+      </p>
+      <p>
+      <b>FEES</b>
+      <input type="text" name="FEES">
+      </p>
+    <button type="submit"><b>Book My Appointment</b></button>
+  
+</form>
+</center>
+
+</body>
+</html>

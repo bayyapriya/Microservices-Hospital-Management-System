@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FIRST Flask</title>
+</head>
+<body style="background-color: palegreen">
+    <h1><center>PATIENT MICRO SERVICE</center></h1>
+    <center>
+    <style>
+        .btn-group button {
+          background-color: white; /* Green background */
+          border: 1px solid black; /* Green border */
+          padding: 10px 24px; /* Some padding */
+          cursor: pointer; /* Pointer/hand icon */
+          width: 50%; /* Set a width if needed */
+          display: block; /* Make the buttons appear below each other */
+        }
+        
+        .btn-group button:not(:last-child) {
+          border-bottom: none; /* Prevent double borders */
+        }
+        
+        /* Add a background color on hover */
+        .btn-group button:hover {
+          background-color: white
+        }
+        </style>
+    <div class="btn-group">
+        <a href="http://127.0.0.1:5000/register">
+        <button>REGISTER</button>
+        </a>
+        <a href="http://127.0.0.1:5000/login">
+        <button>LOGIN</button>
+        </a>
+        <a href="http://127.0.0.1:5000/list">
+        <button>DOCTORS LIST</button>
+        </a>
+        <a href="http://127.0.0.1:5000/appointment">
+        <button>APPOINTMENTS</button>
+        </a>
+        <a href="http://127.0.0.1:5000/payment">
+          <button>PAYMENT</button>
+          </a>
+      </div>
+    </center>
+    
+</body>
+</html>

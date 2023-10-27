@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+		<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+<body style="background-color:papayawhip">
+  <center>
+    <div id = "eee"></div>
+    <script type = "text/babel">
+      function Car() 
+      {
+        return <h2>Here is your Payment page , You can make your payment here !!!</h2>;
+      }
+      ReactDOM.render(<Car/>,document.getElementById('eee'));
+    </script>
+  </center>
+
+
+    <h1><center>PAYMENT</center></h1>
+    <center>
+    <form method = "post">
+      <p>
+     <b>Fullname</b>
+     <input type ="text" name ="Fullname">
+     </p>
+     <p>
+     <b>Nickname</b>
+     <input type ="text" name ="Nickname">
+     </p>
+     <p>
+     <b>Email</b>
+     <input type ="text" name ="Email">
+     </p>
+     <p>
+     <b>DOB</b>
+     <input type ="text" name ="DOB">
+     </p>
+     <p>
+     <b>Gender</b>
+     <input type ="text" name ="Gender">
+     </p>
+     <h3><B>Payment Details</B></h3>
+        <p>
+        <b>Cardnumber</b>
+        <input type ="text" name ="Cardnumber">
+        </p>
+        <p>
+        <b>Cvv</b>
+        <input type ="text" name ="Cvv">
+        </p>
+        <p>
+        <b>Expdate</b>
+        <input type ="text" name ="Expdate">
+        </p>
+        <p>
+            <b>Amount</b>
+            <input type ="text" name ="Amount">
+            </p>
+     
+     <button type="submit"><b>PAY NOW</b></button>
+ 
+   </form>
+  </center>
+</body>
+</html>

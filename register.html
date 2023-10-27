@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+            <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+            <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+      </head>
+<body style="background-color:papayawhip">
+    <center>
+        <div id = "eee"></div>
+        <script type = "text/babel">
+          function Car() 
+          {
+            return <h2>Here is your Registration page , You can Register here !!! </h2>;
+          }
+          ReactDOM.render(<Car/>,document.getElementById('eee'));
+        </script>
+      </center>
+<center>
+<form method = post>
+    <h1>Register</h1>
+    <p>
+    <b>Username</b>
+     <input type ="text" name ="Username">
+    </p>
+    <p>
+     <b>Password</b>
+     <input type ="text" name ="Password">
+    </p>
+    <p>
+     <b>Email</b>
+     <input type = "text" name="Email">
+     </p>
+     <button type="submit"><b>REGISTER</b></button>
+    
+</form>
+</center>
+
+</body>
+</html>
